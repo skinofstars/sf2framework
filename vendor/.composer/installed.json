@@ -31,5 +31,38 @@
                 "Symfony\\Component\\ClassLoader": ""
             }
         }
+    },
+    {
+        "name": "symfony\/http-foundation",
+        "version": "2.1.0-dev",
+        "version_normalized": "2.1.0.0-dev",
+        "target-dir": "Symfony\/Component\/HttpFoundation",
+        "source": {
+            "type": "git",
+            "url": "http:\/\/github.com\/symfony\/HttpFoundation.git",
+            "reference": "cbca894953e5ed1d32a7f77a9fbf364deff40960"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http:\/\/github.com\/symfony\/HttpFoundation\/zipball\/cbca894953e5ed1d32a7f77a9fbf364deff40960",
+            "reference": "cbca894953e5ed1d32a7f77a9fbf364deff40960",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "type": "library",
+        "names": [
+            "symfony\/http-foundation"
+        ],
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\HttpFoundation": ""
+            }
+        }
     }
 ]
